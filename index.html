@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ज्ञानाई संगीत गुरुकुल, आळंदी</title>
+    <style>
+        /* संपूर्ण पेजची डिझाईन */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #fdfbf7 0%, #f5ebd7 100%);
+            color: #333;
+            margin: 0;
+            padding: 20px 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(211, 84, 0, 0.1);
+        }
+
+        /* मुख्य हेडिंग */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px dashed #f39c12;
+            padding-bottom: 15px;
+        }
+
+        h1 {
+            color: #d35400;
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #7f8c8d;
+            font-style: italic;
+            margin: 0;
+        }
+
+        /* प्रत्येक विभागाचे (Card) डिझाईन */
+        .section {
+            background: #fffaf0;
+            border: 1px solid #fbeec1;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+        }
+
+        .section h2 {
+            color: #e67e22;
+            font-size: 20px;
+            margin-top: 0;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .section ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .section li {
+            font-size: 15px;
+            margin-bottom: 8px;
+            color: #444;
+        }
+
+        /* व्हिडिओसाठी डिझाईन */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            margin-top: 15px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* कडक बटन्सची डिझाईन */
+        .btn-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            width: 80%;
+        }
+
+        .btn:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* वेगवेगळ्या बटन्सचे रंग */
+        .btn-inquiry {
+            background: linear-gradient(135deg, #f39c12 0%, #d35400 100%);
+        }
+
+        .btn-admission {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+        }
+
+        .fee-badge {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin: 15px 0;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>ज्ञानाई संगीत गुरुकुल, आळंदी</h1>
+        <p class="subtitle">गायन, वादन आणि संगीत साधना</p>
+    </header>
+
+    <!-- विभाग १: यूट्यूब व्हिडिओ -->
+    <div class="section">
+        <h2>📺 आमचे यूट्यूब व्हिडिओ (YouTube Channel)</h2>
+        <p>आमच्या गुरुकुलचे व्हिडिओ आणि विद्यार्थ्यांचे परफॉर्मन्स खाली पहा:</p>
+        <div class="video-container">
+            <!-- https://youtu.be/DMUYBx78n-0 -->
+            <iframe src="https://youtu.be/DMUYBx78n-0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- विभाग २: चौकशी फॉर्म -->
+    <div class="section">
+        <h2>🎵 आमचे क्लासेस (Our Courses)</h2>
+        <p>तुम्हाला क्लास लावायचा असेल किंवा काही माहिती हवी असेल, तर खालील बटणावर क्लिक करून चौकशी फॉर्म भरा. आम्ही तुम्हाला कॉल करू!</p>
+        <ul>
+            <li>शास्त्रीय गायन व उप-शास्त्रीय गायन वर्ग</li>
+            <li>हार्मोनियम, तबला आणि पखवाज वादन प्रशिक्षण</li>
+            <li>वारकरी भजनी संगीत विशेष वर्ग</li>
+        </ul>
+        <div class="btn-box">
+            <!-- https://forms.gle/CZZmMT5AHQcRfcNe6 -->
+            <a href="https://forms.gle/CZZmMT5AHQcRfcNe6" class="btn btn-inquiry">❓ क्लासबद्दल चौकशी करा (Inquiry Now)</a>
+        </div>
+    </div>
+
+    <!-- विभाग ३: प्रवेश प्रक्रिया -->
+    <div class="section">
+        <h2>📝 थेट प्रवेश प्रक्रिया (Direct Admission)</h2>
+        <div class="fee-badge">
+            💰 वार्षिक फी: ₹४०,०००/- (राहण्याची व खाण्याची उत्तम सोय उपलब्ध)
+        </div>
+        <p>जर तुम्ही प्रवेश घेण्याचे नक्की केले असेल, तर खालील बटणावर क्लिक करून मुख्य ॲडमिशन फॉर्म भरा आणि तुमची जागा निश्चित करा.</p>
+        <div class="btn-box">
+            <!-- https://forms.gle/joUhwesn5NFtyhMg8 -->
+            <a href="https://forms.gle/joUhwesn5NFtyhMg8" class="btn btn-admission">🚀 Enroll Now (थेट प्रवेश घ्या)</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
